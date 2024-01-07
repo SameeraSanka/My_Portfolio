@@ -1,0 +1,111 @@
+.intro {
+    display: flex;
+    height: 70vh;
+    margin-top: 3rem;
+    padding: 0.5rem 3.5rem;
+    background-color: var(--blue);
+}
+
+/* --------------- left ------------- */
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    color: var(--white);
+    margin-top: 6rem;
+    gap: 3rem;
+    padding-left: 5%
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.i-name>:nth-child(1) {
+    color: var(--white);
+    font-weight: bold;
+    font-family: 'poppines', sans-serif;
+    font-size: 2.5rem;
+}
+
+.i-name>:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-family: 'poppines', sans-serif;
+    font-size: 3.5rem;
+}
+
+.i-name>:nth-child(3) {
+    margin-top: 2rem;
+    color: var(--white);
+    font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.5rem;
+}
+
+.i-name>:nth-child(4) {
+    margin-top: 1rem;
+    color: var(--gray);
+    font-family: 'poppines', sans-serif;
+    font-size: 1rem;
+}
+
+.intro-buttons {
+    display: flex;
+    gap: 0 1rem;
+}
+
+.i-button {
+    box-shadow: none;
+}
+
+.i-button2 {
+    box-shadow: none;
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+
+.i-icon {
+    display: flex;
+    gap: 0 1rem;
+
+}
+
+.i-icon>:nth-child(1),
+.i-icon>:nth-child(2) {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* ----------- right ---------- */
+
+.i-right {
+    display: flex;
+    position: relative;
+    flex: 1;
+    color: var(--white);
+    margin-top: 8rem;
+    justify-content: center;
+}
+
+
+
+
+.myImage {
+    display: flex;
+    margin-top: 5rem 6rem;
+    width: 20rem;
+    height: 20rem;
+    transform: scale(1.4);
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 10px #11131d ;
+}
+
+.wave>img {
+    width: 100%;
+    height: auto;
+}

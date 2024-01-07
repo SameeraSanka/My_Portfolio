@@ -1,0 +1,76 @@
+.services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+}
+.left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 8rem;
+    padding-left: 5%
+
+}
+.left>:nth-child(1){
+    color: var(--blue);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.left>:nth-child(2){
+    color: var(--orange);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.left>:nth-child(3){
+    margin-top: 2rem;
+    color: var(--gray);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+.s-button{
+    margin-top: 2rem;
+    box-shadow: none;
+    background: var(--blue);
+}
+/* right sided */
+
+.right{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.right {
+    position: relative;
+  }
+  .right > * {
+    position: absolute;
+  }
+
+/* blur */
+
+
+.s-blur2 {
+    left: 14rem;
+    top: 8rem;
+  }
+  
+  .s-blur1 {
+    top: 13rem;
+    left: -18rem;
+  }
+
+.serviceWave{
+    width: 100%;
+    height: auto;
+    margin-top: -25rem;
+}

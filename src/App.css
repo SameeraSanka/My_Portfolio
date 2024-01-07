@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+:root
+{
+  --blue: #1f2234;
+    --orange : #ff4d20;
+    --black : #242D49;
+    --white : #f7f7f7;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(255, 237, 210);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.App{
+
+    /* padding: 0.5rem 3.5rem; */
+    overflow: hidden;
+    color: var(--blue);    
+}
+.button {
+    background: var(--orange);
+    box-shadow: 0px 0px 10px 1px var(--orange);
+    border-radius: 34px;
+    border: none;
+    color: rgb(231, 231, 231);
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    width: 10rem;
+    transition: background 0.6s ease, color 0.6s ease; /* Add transition */
+  }
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+  }
+
+  .blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: var(--orange);
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+  }

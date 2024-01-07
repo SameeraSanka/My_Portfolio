@@ -1,0 +1,66 @@
+.eduWave{
+    width: 100%;
+    margin-top: 2rem;
+}
+.fullEducation{
+    padding: 0 3rem 0 3rem;
+    height: 90vh;
+    margin-top: 8rem;
+}
+.eduWord{
+    color: var(--orange);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline; /* Add this line to add underline */
+    margin-left: 5rem;
+}
+.eduWrapper{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+.tab{
+    font-weight: bold;
+}
+.custom-tab{
+    font-weight: bold;
+    color: brown;
+}
+
+.cetiWrapper{
+    display: flex;
+    padding: 0 3rem 0 3rem;
+}
+.eduLeft{
+    display: flex;
+    flex: 1;
+
+}
+.eduLeft > img {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Initial box shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adding transition for smooth effect */
+}
+
+.eduLeft > img:hover {
+    transform: scale(1.1); /* Scale on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* New box shadow on hover */
+}
+
+.eduRight{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    gap: 1rem;
+}
+.eduRight>span{
+    color: var(--blue);
+    font-family: 'poppines', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}

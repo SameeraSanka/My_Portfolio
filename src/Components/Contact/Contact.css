@@ -1,0 +1,67 @@
+.contactWrapper{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 60vh;
+    margin-bottom: 8rem;
+    margin-top: -15rem;
+    
+}
+.contactleft {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 15rem;
+    align-items: center;
+}
+
+.contactleft>:nth-child(1){
+    color: var(--blue);
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contactleft>:nth-child(2){
+    color: var(--orange);
+    font-family: 'Salsa', cursive;
+    font-size: 6rem;
+    font-weight: 900;
+}
+.s-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+/* right */
+.contactright{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 12rem;
+    justify-content: flex-start; /* Move the form to the right */
+    padding-left: 10%
+}
+
+.contactright>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+      
+}
+
+.contactright .user{
+    width: 40rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}

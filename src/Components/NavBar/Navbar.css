@@ -1,0 +1,68 @@
+/* .navbar{
+    height: 5rem;
+    width: 100vm;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    top: 0;
+    z-index: 3;
+} */
+
+.n-wrapper {
+    height: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Change from static to fixed */
+    top: 0; /* Add top: 0; to stick to the top */
+    z-index: 3;
+    background-color: #1f2234;
+}
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    padding:  3.5rem;
+}
+.n-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    padding-left: 5%;
+
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding:  3.5rem;
+}
+.n-list{
+    flex: 10;
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 5rem;
+    font-style: none;
+    font-size: 0.9rem;
+    list-style: none; 
+    font-family: 'poppines', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 30%;
+}
+.n-list>ul :hover{
+    cursor: pointer;
+    color: #ff4d20;
+}

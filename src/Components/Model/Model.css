@@ -1,0 +1,18 @@
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.EduBtn{
+    box-shadow: none;
+    width: 12rem;
+}
+.imgCeti{
+    width: 65%;
+}
+.trancBtn{
+    
+    box-shadow: none;
+    width: 12rem;
+    background: var(--blue);
+}
